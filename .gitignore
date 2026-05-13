@@ -1,0 +1,27 @@
+# dotenv environment variables file
+.env
+
+# cache & etc
+*__pycache__/
+*.DS_Store
+.vscode
+
+# venv
+*.venv
+
+# data
+data/*
+
+# logs
+logs/
+
+# pem / key
+*.pem
+*.key
+pem_key/
+
+# redis data
+redis-data/
+
+# claude
+*.claude
